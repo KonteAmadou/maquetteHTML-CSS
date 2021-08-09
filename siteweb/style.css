@@ -1,0 +1,127 @@
+/*menu*/
+
+#logo_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    
+}
+li{
+    padding: 45px;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    padding: 45px;
+    
+    
+
+}
+#text_ordi{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+
+}
+.text{
+    color: #13297f;
+}
+b{
+    font-size: 2em;
+    padding: 40px;
+
+}
+button{
+    border-radius: 25px;
+    background-color: tomato;
+    width: 150px;
+    height: 30px;
+    color: white;
+}
+/*body*/
+body{
+    flex-wrap: wrap;
+    width: auto;
+}
+.services{
+    background-color: #13297f;
+    width: auto;
+    height: 50px;
+    margin-bottom: -50px;
+    color: white;
+}
+.partie_bleue{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:#13297f ;
+    padding-top: -20px;
+
+}
+.text2{
+    color: white;
+
+}
+.incones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color:#13297f ;
+    padding: 50px;
+
+}
+.porfolios{
+    border-radius: 100px;
+    width: 300px;
+    height: 10px;
+    background-color: white;
+    align-items: bottom;
+    
+}
+#partie_orange{
+    background-color: #ff4c00;
+    margin-top: -20px;
+
+}
+.image{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+}
+.porfolio{
+    color: white;
+}
+#ext3_carte{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.carte{
+    align-items: right;
+}
+
+
+
+
+
+
+/*footer*/
+#footer p{
+    text-align: center;
+}
+
